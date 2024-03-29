@@ -4,9 +4,9 @@ const server = createServer((request, response) => {
     console.log('Request received');
 
     response.statusCode = 200;
-
-    response.setHeader('Content-Type', 'text/html'); // Cambiado a 'text/html' para enviar HTML
-    response.end("<html><body><h1>server...</h1></body></html>");
+    const jsonResponseBody = JSON.stringify({location: 'Mars'});
+    response.setHeader('Content-Type', 'application/json');
+    response.end(jsonResponseBody);
 });
 
 server.listen(3000, () => {
