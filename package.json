@@ -1,9 +1,8 @@
 {
   "name": "ejercicios_node",
   "version": "1.0.0",
-  "description": "ejercicios to learnig node js",
+  "description": "��#\u0000 \u0000N\u0000o\u0000d\u0000e\u0000-\u0000J\u0000S\u0000\r\u0000 \u0000",
   "main": "export-1.js",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
