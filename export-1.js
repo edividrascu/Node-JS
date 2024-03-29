@@ -1,3 +1,4 @@
-const mensajeDeSlida = require('./import-1');
+import myFunction from './import-1.js';
 
-mensajeDeSlida("ignore los 45 errores graves");
+myFunction();
+// node --experimental-modules export-1.js

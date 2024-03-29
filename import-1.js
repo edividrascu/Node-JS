@@ -1,4 +1,5 @@
-function mensajeDeSlida(params) {
-    console.log("el programa funciona corectamente " + params);
+
+function myFunction() {
+    console.log("1+2 = helloworld");
 }
-module.exports = mensajeDeSlida;
+export default myFunction;
